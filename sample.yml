@@ -1,1 +1,9 @@
+- name : playbook for debug module
+  hosts: 
+    - web  
+  tasks: 
+     - name: task 1 
+       debug: 
+         msg: This is my debug module 
+       
 
