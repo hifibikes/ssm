@@ -1,6 +1,5 @@
 - name : playbook for debug module
-  hosts: 
-    - web  
+  hosts: all
   tasks: 
      - name: task 1 
        debug: 
