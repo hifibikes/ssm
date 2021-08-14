@@ -3,6 +3,6 @@
   tasks: 
      - name: task 1 
        debug: 
-         msg: This is my debug module 
+         msg: This is my debug module {{ansible_distribution}}
        
 
