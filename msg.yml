@@ -1,6 +1,6 @@
 - name : playbook for debug module
   hosts: all
   tasks: 
-     - name: task one 
+     - name: task 1
        debug: 
          msg: This is my debug module to print msg
